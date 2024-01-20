@@ -1,6 +1,6 @@
 import { PayloadAction, createSlice } from "@reduxjs/toolkit";
 
-interface CounterState {
+export interface CounterState {
     count: number
 }
 
