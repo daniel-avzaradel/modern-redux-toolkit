@@ -1,9 +1,13 @@
-import React from 'react'
+import "./counter.css";
 
 const Counter = () => {
   return (
-    <div>Counter</div>
-  )
-}
+    <div className="container">
+      <h1>REDUX TOOLKIT TUTORIAL </h1>
+      <br />
+      <h3>Counter</h3>
+    </div>
+  );
+};
 
-export default Counter
+export default Counter;
